@@ -7,10 +7,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>labJunit</name>
 	<description>Calculatrice en Java avec des tests unitaires</description>
-	<properties>
-        <maven.compiler.source>16</maven.compiler.source>
-        <maven.compiler.target>16</maven.compiler.target>
-    </properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
@@ -26,6 +23,7 @@
 				<artifactId>maven-jar-plugin</artifactId>
 				<version>3.2.0</version>
 				<configuration>
+					<propertiesEncoding>UTF-8</propertiesEncoding>
 					<archive>
 						<manifest>
 							<mainClass>labJunit.app.Main</mainClass>
